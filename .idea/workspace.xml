@@ -5,29 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc93b89-1015-4031-bc5d-c3c4d82a448e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/EntryMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/LoginMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ProfileMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/SignupMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Empire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Stronghold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/EntryMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Enums/Commands/EntryMenuCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Enums/Commands/LoginMenuCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Enums/Commands/ProfileMenuCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Enums/Commands/SignupMenuCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Enums/Messages/LoginMenuMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Enums/Messages/ProfileMenuMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Enums/Messages/SignupMenuMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/LoginMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/ProfileMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/SignupMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/ArmorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/Speed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/WeaponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/units/RangedTroop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/units/Troops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/units/Units.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,21 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,6 +66,8 @@
       <workItem from="1680816335387" duration="529000" />
       <workItem from="1681036454915" duration="50000" />
       <workItem from="1681380020085" duration="13139000" />
+      <workItem from="1681413084785" duration="257000" />
+      <workItem from="1681414842477" duration="2532000" />
     </task>
     <task id="LOCAL-00001" summary="Create Project">
       <created>1680816463047</created>
@@ -97,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680816618290</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add SRC Folder">
+      <created>1681413259365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681413259365</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
