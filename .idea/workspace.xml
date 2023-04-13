@@ -4,11 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cc93b89-1015-4031-bc5d-c3c4d82a448e" name="Changes" comment="" />
+    <list default="true" id="3cc93b89-1015-4031-bc5d-c3c4d82a448e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/EntryMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/LoginMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ProfileMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/SignupMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Empire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Stronghold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/EntryMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Enums/Commands/EntryMenuCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Enums/Commands/LoginMenuCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Enums/Commands/ProfileMenuCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Enums/Commands/SignupMenuCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Enums/Messages/LoginMenuMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Enums/Messages/ProfileMenuMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Enums/Messages/SignupMenuMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/LoginMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/ProfileMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/SignupMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,7 +49,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2O4OKu168cycchWQPcoBaiWldqS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,6 +60,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -44,7 +79,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680816332952</updated>
-      <workItem from="1680816335387" duration="172000" />
+      <workItem from="1680816335387" duration="529000" />
+      <workItem from="1681036454915" duration="50000" />
+      <workItem from="1681380020085" duration="13139000" />
     </task>
     <task id="LOCAL-00001" summary="Create Project">
       <created>1680816463047</created>
@@ -53,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680816463047</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add SRC Folder">
+      <created>1680816618290</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680816618290</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Project" />
+    <MESSAGE value="Add SRC Folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add SRC Folder" />
   </component>
 </project>
