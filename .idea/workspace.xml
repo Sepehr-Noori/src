@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cc93b89-1015-4031-bc5d-c3c4d82a448e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/ArmorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/Speed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/WeaponType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/units/RangedTroop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/units/Troops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/units/Units.java" afterDir="false" />
+    <list default="true" id="3cc93b89-1015-4031-bc5d-c3c4d82a448e" name="Changes" comment="Add SRC Folder">
+      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/Damage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/Hp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/MeleeTroops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/RangedTroops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/units/MeleeTroop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/units/Enums/ArmorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/units/Enums/ArmorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/units/Enums/Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/units/Enums/Speed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/units/RangedTroop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/units/RangedTroop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/units/Troops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/units/Troops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/units/Units.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/units/People.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +25,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -52,7 +61,8 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +77,8 @@
       <workItem from="1681036454915" duration="50000" />
       <workItem from="1681380020085" duration="13139000" />
       <workItem from="1681413084785" duration="257000" />
-      <workItem from="1681414842477" duration="2532000" />
+      <workItem from="1681414842477" duration="3255000" />
+      <workItem from="1681431049607" duration="3164000" />
     </task>
     <task id="LOCAL-00001" summary="Create Project">
       <created>1680816463047</created>
@@ -90,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681413259365</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add SRC Folder">
+      <created>1681418414053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681418414053</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
