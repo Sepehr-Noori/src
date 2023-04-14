@@ -1,4 +1,4 @@
-package Model.units.Enums;
+package Model.people.Enums;
 
 public enum Damage {
     VERY_LOW(20),

@@ -1,6 +1,6 @@
-package Model.units;
+package Model.people;
 
-import Model.units.Enums.MeleeTroops;
+import Model.people.Enums.MeleeTroops;
 
 public class MeleeTroop extends Troops{
     private boolean canScaleWall;

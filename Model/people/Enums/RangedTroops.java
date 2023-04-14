@@ -1,7 +1,7 @@
-package Model.units.Enums;
+package Model.people.Enums;
 
-public enum MeleeTroops {
-    SPEARMAN(Hp.VERY_LOW, Speed.MEDIUM, WeaponType.SPEAR, ArmorType.NONE, Damage.MEDIUM, false, false, false, true, true);
+public enum RangedTroops {
+    ARCHER(Hp.LOW, Speed.HIGH, WeaponType.BOW, ArmorType.NONE, Damage.LOW, false, false, false, 5, 0.5);
 
     private final Hp hp;
     private final Speed speed;
@@ -11,11 +11,11 @@ public enum MeleeTroops {
     private final boolean hasHorse;
     private final boolean isArab;
     private final boolean hasFiringWeapon;
-    private final boolean canScaleWall;
-    private final boolean canDigKhandagh;
+    private final int range;
+    private final double damageRatioOnArmor;
 
-    MeleeTroops(Hp hp, Speed speed, WeaponType weaponType, ArmorType armorType, Damage damage, boolean hasHorse,
-                boolean isArab, boolean hasFiringWeapon, boolean canScaleWall, boolean canDigKhandagh) {
+    RangedTroops(Hp hp, Speed speed, WeaponType weaponType, ArmorType armorType, Damage damage, boolean hasHorse,
+                 boolean isArab, boolean hasFiringWeapon, int range, double damageRatioOnArmor) {
         this.hp = hp;
         this.speed = speed;
         this.weaponType = weaponType;
@@ -24,8 +24,8 @@ public enum MeleeTroops {
         this.hasHorse = hasHorse;
         this.isArab = isArab;
         this.hasFiringWeapon = hasFiringWeapon;
-        this.canScaleWall = canScaleWall;
-        this.canDigKhandagh = canDigKhandagh;
+        this.range = range;
+        this.damageRatioOnArmor = damageRatioOnArmor;
     }
 
     public int getHp() {
@@ -48,7 +48,7 @@ public enum MeleeTroops {
         return damage.getDamage();
     }
 
-    public boolean isHasHorse() {
+    public boolean hasHorse() {
         return hasHorse;
     }
 
@@ -56,15 +56,15 @@ public enum MeleeTroops {
         return isArab;
     }
 
-    public boolean isHasFiringWeapon() {
+    public boolean hasFiringWeapon() {
         return hasFiringWeapon;
     }
 
-    public boolean isCanScaleWall() {
-        return canScaleWall;
+    public int getRange() {
+        return range;
     }
 
-    public boolean isCanDigKhandagh() {
-        return canDigKhandagh;
+    public double getDamageRatioOnArmor() {
+        return damageRatioOnArmor;
     }
 }
