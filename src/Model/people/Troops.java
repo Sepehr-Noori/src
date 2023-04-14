@@ -1,9 +1,9 @@
-package Model.units;
+package Model.people;
 
-import Model.units.Enums.ArmorType;
-import Model.units.Enums.WeaponType;
+import Model.people.Enums.ArmorType;
+import Model.people.Enums.WeaponType;
 
-public abstract class Troops extends People{
+public abstract class Troops extends Units {
     protected WeaponType weaponType;
     protected ArmorType armorType;
     protected int damage;

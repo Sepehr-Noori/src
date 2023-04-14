@@ -1,4 +1,4 @@
-package Model.units.Enums;
+package Model.people.Enums;
 
 public enum Hp {
     VERY_LOW(60),

@@ -1,6 +1,6 @@
-package Model.units;
+package Model.people;
 
-import Model.units.Enums.RangedTroops;
+import Model.people.Enums.RangedTroops;
 
 public class RangedTroop extends Troops {
     private final int range;

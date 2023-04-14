@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cc93b89-1015-4031-bc5d-c3c4d82a448e" name="Changes" comment="Add SRC Folder">
-      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/Damage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/Hp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/MeleeTroops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/RangedTroops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/units/MeleeTroop.java" afterDir="false" />
+    <list default="true" id="3cc93b89-1015-4031-bc5d-c3c4d82a448e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Model/units/Citizens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/units/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/units/Enums/AttackingModes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/units/Ladderman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/units/Enums/ArmorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/units/Enums/ArmorType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/units/Enums/Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/units/Enums/Speed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/units/RangedTroop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/units/RangedTroop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/units/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/units/Units.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/units/Troops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/units/Troops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/units/Units.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/units/People.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +21,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="NO_FF" />
+      </set>
     </option>
   </component>
   <component name="Git.Settings">
@@ -79,6 +82,7 @@
       <workItem from="1681413084785" duration="257000" />
       <workItem from="1681414842477" duration="3255000" />
       <workItem from="1681431049607" duration="3164000" />
+      <workItem from="1681469069015" duration="1581000" />
     </task>
     <task id="LOCAL-00001" summary="Create Project">
       <created>1680816463047</created>
@@ -108,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681418414053</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Ranged &amp; Melee Troops">
+      <created>1681469348057</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681469348057</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +139,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Project" />
     <MESSAGE value="Add SRC Folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add SRC Folder" />
+    <MESSAGE value="Add Ranged &amp; Melee Troops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Ranged &amp; Melee Troops" />
   </component>
 </project>
