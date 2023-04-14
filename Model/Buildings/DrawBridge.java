@@ -1,4 +1,4 @@
-package Model;
+package Model.Buildings;
 
 public class DrawBridge extends DefensiveBuilding{
 

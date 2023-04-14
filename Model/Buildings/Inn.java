@@ -1,6 +1,8 @@
-package Model;
+package Model.Buildings;
 
-public class Inn extends Building{
+import Model.Buildings.Building;
+
+public class Inn extends Building {
 
     private int popularityRate;
     private int wineUsageRate;

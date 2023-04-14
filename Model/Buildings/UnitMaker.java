@@ -1,6 +1,8 @@
-package Model;
+package Model.Buildings;
 
-public class UnitMaker extends Building{
+import Model.Buildings.Building;
+
+public class UnitMaker extends Building {
 
     private int engineerCost;
     private int ladderManCost;

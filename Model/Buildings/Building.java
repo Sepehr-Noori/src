@@ -1,4 +1,6 @@
-package Model;
+package Model.Buildings;
+
+import Model.Resource;
 
 public abstract class Building {
 
